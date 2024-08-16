@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5vw;
+  background-color: #17191f;
+  height: 5vh; 
+}
+
+.navbar h2 a {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  font-size: 2vw;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.nav-btn {
+  font-weight: bold;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #ffffff33; 
+}
